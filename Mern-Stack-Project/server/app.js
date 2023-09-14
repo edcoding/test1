@@ -37,3 +37,5 @@ connectDB();
 
 mongoose.connection.on("open", () => console.log("Connection to database has been established successfully"));
 mongoose.connection.on("error", (err) => console.log(err));
+
+mongodb://localhost:27017/testing
